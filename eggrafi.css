@@ -1,0 +1,67 @@
+/* General styles for the body */
+body {
+    background-color: #ffffff; /* White background */
+    color: #000000; /* Black text */
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* Styles for the form container */
+.container {
+    max-width: 800px;
+    animation: slide-in 1s ease-out;
+}
+
+/* Styles for the labels */
+.col-form-label {
+    font-weight: bold;
+    text-align: right;
+}
+
+/* Styles for input fields */
+.form-control {
+    background-color: #f8f9fa; /* Light grey */
+    border: 1px solid #ced4da;
+    color: #000000;
+}
+
+/* Input fields on focus */
+.form-control:focus {
+    background-color: #e9ecef;
+    color: #000000;
+    box-shadow: none;
+    border-color: #000000;
+}
+
+/* Styles for the submit button */
+.btn-dark {
+    background-color: #000000; /* Black */
+    border: none;
+    color: #ffffff;
+}
+
+/* Submit button on hover */
+.btn-dark:hover {
+    background-color: #343a40; /* Dark grey */
+}
+
+/* Styles for the form heading */
+h1 {
+    color: #000000;
+}
+
+/* Styles for form-check labels */
+.form-check-label {
+    color: #000000;
+}
+
+/* Slide-in animation */
+@keyframes slide-in {
+    from {
+        opacity: 0;
+        transform: translateY(20%);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

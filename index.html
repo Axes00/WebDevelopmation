@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <title>Αλέξανδρος Καραντώνης - Προσωπική Ιστοσελίδα</title>
+    <meta name="Perigrafi" content="My personal page, Student of Comp Science in Hrakleio greece, Inspect the page to find me.">
+    <meta name="keywords" content="Αλέξανδρος Καραντώνης, Πληροφορική, Πανεπιστήμιο Κρήτης, Flutter, Dart, Προγραμματισμός, Comp Science, Instagram,🧢">
+    <meta name="Dimiourgos" content="Αλέξανδρος Καραντώνης">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Font Awesome for Social Media Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/el_GR/sdk.js#xfbml=1&version=v9.0"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+        <a class="navbar-brand" href="#">Αρχική</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">Βιογραφικό</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#studies">Σπουδές</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#interests">Ενδιαφέροντα</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Επικοινωνία</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <header class="jumbotron text-center">
+        <h1 class="display-4">Αλέξανδρος Καραντώνης</h1>
+        <p class="lead">Φοιτητής Πληροφορικής στο Πανεπιστήμιο Κρήτης</p>
+        <!-- Profile Picture -->
+        <img src="Egw.jpg" class="rounded-circle img-fluid" alt="My picture" width="350" height="350">
+        <p style="margin-top: 10px;">Die Lit!</p>
+    </header>
+    <!-- Main Content -->
+    <main class="container">
+        <div class="row">
+            <!-- Main Content Column -->
+            <div class="col-md-9">
+                <!-- About Me Section -->
+                <article id="about">
+                    <h2>Σχετικά με Εμένα</h2>
+                    <p>Yo! Είμαι ο <mark>Αλέξανδρος Καραντώνης</mark>, φοιτητής Πληροφορικής στο <abbr title="Πανεπιστήμιο Κρήτης">Π.Κ.</abbr> στο όμορφο Ηράκλειο (ain't so beautiful out here). Η αγάπη μου για την τεχνολογία ξεκίνησε από μικρή ηλικία🧢, και από τότε έχω αφοσιωθεί στην εξερεύνηση του κόσμου της προγραμματιστικής και της ανάπτυξης εφαρμογών (again🧢 (Just wanna make money really💸)).</p>
+                </article>
+
+                <!-- Studies Section -->
+                <section id="studies">
+                    <h2>Σπουδές</h2>
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>Εκπαίδευση</th>
+                                <th>Ίδρυμα</th>
+                                <th>Βαθμός</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Πτυχίο Πληροφορικής</td>
+                                <td>Πανεπιστήμιο Κρήτης</td>
+                                <td>7.0/10 (almost 🧢)</td>
+                            </tr>
+                            <tr>
+                                <td>Απολυτήριο Λυκείου</td>
+                                <td>Λύκειο</td>
+                                <td>17.5/20</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <h3>Μαθήματα και Βαθμολογίες</h3>
+                    <table class="table table-bordered">
+                        <tr>
+                            <th>Μάθημα</th>
+                            <th>Βαθμός</th>
+                        </tr>
+                        <tr>
+                            <td>C++</td>
+                            <td>9</td>
+                        </tr>
+                        <tr>
+                            <td>Αγγλικά</td>
+                            <td>10.0</td>
+                        </tr>
+                        <tr>
+                            <td>Βάσεις Δεδομένων</td>
+                            <td>9.5 (Δεν έχω περάσει)</td>
+                        </tr>
+                        <tr>
+                            <td>Python</td>
+                            <td>9.5</td>
+                        </tr>
+                        <tr>
+                            <td>Flutter/Dart</td>
+                            <td>10.0</td>
+                        </tr>
+                    </table>
+                </section>
+
+                <!-- Interests and Music Section -->
+                <section id="interests">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h2>Ενδιαφέροντα</h2>
+                            <ul>
+                                <li>Μουσική (Κιθάρα, Σύνθεση, πιάνο)</li>
+                                <li>Fl Studio και Ableton</li>
+                                <li>Ανάπτυξη εφαρμογών με Flutter/Dart</li>
+                                <li>Προγραμματισμός σε C, C++, HTML, CSS, Dart</li>
+                                <li>Τεχνητή Νοημοσύνη και Μηχανική Μάθηση</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <h3>Η Μουσική Μου</h3>
+                            <audio controls>
+                                <source src="sick_ass_drum_beat.mp3" type="audio/mpeg">
+                                Ο περιηγητής σας δεν υποστηρίζει το στοιχείο audio.
+                            </audio>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Projects Section -->
+                <section id="projects">
+                    <h2>Project-X</h2>
+                    <div class="card-deck">
+                        <!-- instagram of Project -->
+                        <div class="card">
+                            <img src="Reserve_Logo_Design-05.jpg" class="card-img-top" alt="Εικόνα Πρότζεκτ 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Εφαρμογή Κρατήσεων</h5>
+                                <p class="card-text">Μια cross-platform εφαρμογή κρατήσεων που αναπτύχθηκε με Flutter/Dart.</p>
+                                <p class="card-text">Use this info lightly or get copyrighted, I'm giving you the sauce here</p>
+                                <a href="https://www.instagram.com/venue_reserve/" class="btn btn-primary">Δείτε Περισσότερα</a>
+                            </div>
+                        </div>
+                        <!-- Website of Project -->
+                        <div class="card">
+                            <img src="website.jpg" class="card-img-top" alt="Εικόνα Πρότζεκτ 2">
+                            <div class="card-body">
+                                <h5 class="card-title">Ιστότοπος Προσωπικού Portfolio</h5>
+                                <p class="card-text">Ένας responsive ιστότοπος που παρουσιάζει τα έργα και τις δεξιότητές μου.</p>
+                                <a href="https://www.venue-reserve.com" class="btn btn-primary">Δείτε Περισσότερα</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Embedded YouTube Video -->
+                <section id="favorite-song">
+                    <h2>Αγαπημένο Τραγούδι</h2>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/1Td6YXU_Z-c" allowfullscreen></iframe>
+                    </div>
+                </section>
+
+                <!-- Spotify Mobile Section -->
+                <section id="spotify-mobile" class="spotify-mobile">
+                    <h2>Spotify Playlist</h2>
+                    <!-- Spotify Embed -->
+                    <iframe src="https://open.spotify.com/embed/playlist/30zFskcx2l2oDIpX5tdRpo" width="100%" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    <!--I should have styled this in css but I dont like the border give by css and somehow it works better with this + cs although is not correct in html means:
+                    Bad value 100% for attribute width on element iframe: Expected a digit but saw % instead
+                    also : The allowtransparency attribute on the iframe element is obsolete 
+                    and same about frameborder but from means of aesthetics ill keep it as it is -->
+                </section>
+
+                <!-- Quick Info Section for Mobile -->
+                <section class="quick-info d-block d-md-none">
+                    <h2>Γενικές Πληροφορίες</h2>
+                    <dl>
+                        <dt>Ημερομηνία Γέννησης:</dt>
+                        <dd>Classified</dd>
+                        <dt>Τόπος Καταγωγής:</dt>
+                        <dd>We don't talk about that</dd>
+                        <dt>Email:</dt>
+                        <dd>alex.xoxolex@gmail.com</dd>
+                    </dl>
+                </section>
+
+                <!-- Contact Section -->
+                <section id="contact">
+                    <h2>Επικοινωνία</h2>
+                    <p>Μπορείτε να επικοινωνήσετε μαζί μου μέσω των social media ή να μου στείλετε email.</p>
+
+                    <!-- Social Media Buttons -->
+                    <a href="https://www.instagram.com/axes____/" target="_blank">
+                        <i class="fab fa-instagram" style="font-size: 50px;"></i>
+                    </a>
+                    <a href="https://github.com/Axes00" target="_blank">
+                        <i class="fab fa-github" style="font-size: 50px;"></i>
+                    </a>
+
+                    <!-- Facebook Share Button -->
+                    <div class="fb-share-button" 
+                        data-href="https://venue-reserve.com" 
+                        data-layout="button_count">
+                    </div>
+                </section>
+            </div>
+
+            <!-- Sidebar Column -->
+            <div class="col-md-3">
+                <!-- Spotify Sidebar -->
+                <aside class="spotify-sidebar">
+                    <h2>Spotify Playlist</h2>
+                    <!-- Spotify Embed -->
+                    <iframe src="https://open.spotify.com/embed/playlist/30zFskcx2l2oDIpX5tdRpo" width="100%" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                </aside>
+
+                <!-- Additional Aside Content -->
+                <aside class="quick-info d-none d-md-block">
+                    <h2>Γενικές Πληροφορίες</h2>
+                    <dl>
+                        <dt>Ημερομηνία Γέννησης:</dt>
+                        <dd>Classified</dd>
+                        <dt>Τόπος Καταγωγής:</dt>
+                        <dd>We don't talk about that</dd>
+                        <dt>Email:</dt>
+                        <dd>alex.xoxolex@gmail.com</dd>
+                    </dl>
+                </aside>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <p>&copy; 2023 Αλέξανδρος Καραντώνης</p>
+    </footer>
+
+    <!-- Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>
